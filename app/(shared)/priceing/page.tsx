@@ -1,7 +1,7 @@
 "use client"
 import React from "react";
 import { motion } from "framer-motion";
-import { data } from "../Data/index";
+import { data } from "../../Data/index";
 import { CheckCircleIcon } from "lucide-react";
 
 const Pricing = () => {

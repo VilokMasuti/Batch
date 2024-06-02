@@ -30,7 +30,7 @@ const Testimonial = () => {
             alt="logo"
             width={700}
             height={700}
-            className="absolute  top-0 left-0   animate-spin duration-1000"
+            className="absolute  top-0 left-0   animate-pulse duration-1000"
           />
           <Image
             src={t}

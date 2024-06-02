@@ -1,11 +1,11 @@
 "use client";
 import Image from 'next/image';
-import e from "../../public/assets/e.png";
-import ering from "../../public/assets/ering.png";
-import Mockup from "../../public/assets/iPhoneFront.png";
-import { data } from "../Data/index";
+import e from "../../../public/assets/e.png";
+import ering from "../../../public/assets/ering.png";
+import Mockup from "../../../public/assets/iPhoneFront.png";
+import { data } from "../../Data/index";
 import { motion } from "framer-motion";
-const Features = () => {
+const FeaturesPage = () => {
   const MULTIDIRECTION_SLIDE_VARIANTS = {
     hidden: { opacity: 0, x: "-25vw" },
     visible: { opacity: 1, x: 0 },
@@ -34,7 +34,7 @@ const Features = () => {
           alt="logo"
           width={600}
           height={600}
-          className="absolute top-0 left-0"
+          className="absolute animate-pulse duration-1000 top-0 left-0"
         />
         <Image
           src={ering}
@@ -81,4 +81,4 @@ const Features = () => {
   );
 };
 
-export default Features;
+export default FeaturesPage;

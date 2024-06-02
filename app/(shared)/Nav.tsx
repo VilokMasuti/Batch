@@ -44,13 +44,13 @@ const Nav = () => {
         transition={{ duration: 2 }}
         variants={variants1}
       className="mt-2 lg:ml-[40px]    hidden md:flex gap-6 lg:gap-10">
-        <Link href="/home">
+        <Link href="/">
           <span className="text-[#FF5555] font-semibold text-xl">Home</span>
         </Link>
         <Link href="/about">
           <span className="font-semibold">About us</span>
         </Link>
-        <Link href="/pricing">
+        <Link href="/Pricing">
           <span className="font-semibold">Pricing</span>
         </Link>
         <Link href="/features">
@@ -81,7 +81,7 @@ const Nav = () => {
         animate="visible"
         transition={{ duration: 1 }}
         variants={variants1}
-      className="md:hidden ml- max-sm:ml-[-120px]">
+      className="md:hidden ml- max-sm:ml-[-60px]">
         <MobNav />
       </motion.div>
     </motion.div>

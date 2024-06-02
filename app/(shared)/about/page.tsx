@@ -1,14 +1,14 @@
 "use client";
-import star from "../../public/assets/star.png";
+import star from "../../../public/assets/star.png";
 import Image from "next/image";
 import React from "react";
-import ganta from "../../public/assets/ganta.png";
-import e from "../../public/assets/e.png";
-import ering from "../../public/assets/ering.png";
-import Mockup from "../../public/assets/iPhoneFront.png";
-import iphonesss from "../../public/assets/iphonesss.png";
+import ganta from "../../../public/assets/ganta.png";
+import e from "../../../public/assets/e.png";
+import ering from "../../../public/assets/ering.png";
+import Mockup from "../../../public/assets/iPhoneFront.png";
+import iphonesss from "../../../public/assets/iphonesss.png";
 import { motion } from "framer-motion";
-import icon from "../../public/assets/Icon.png";
+import icon from "../../../public/assets/Icon.png";
 const Advatnage = () => {
   const separate = {
     hidden: { opacity: 0, y: 0 },
@@ -68,7 +68,7 @@ const Advatnage = () => {
                           alt="logo"
                           width={600}
                           height={600}
-                          className="absolute top-0 left-0" />
+                          className="absolute  animate-pulse duration-1000 top-0 left-0" />
                     <Image
                           src={ering}
                           alt="logo"
@@ -110,7 +110,7 @@ const Advatnage = () => {
                           alt="logo"
                           width={600}
                           height={600}
-                          className="absolute top-0 left-0" />
+                          className="absolute animate-pulse duration-1000 top-0 left-0" />
                     <Image
                           src={ering}
                           alt="logo"

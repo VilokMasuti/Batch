@@ -1,11 +1,12 @@
 import React from 'react'
-import Nav from './UI/Nav'
-import Hero from './UI/Hero'
-import Features from './UI/Features'
-import Advatnage from './UI/Advatnage'
-import Testimonial from './UI/Testimonial'
-import Pricing from './UI/Pricing '
-import Download from './UI/Download'
+import Nav from './(shared)/Nav'
+import Hero from './(shared)/Hero'
+import Features from './(shared)/features/page'
+import Advatnage from './(shared)/about/page'
+import Testimonial from './(shared)/Testimonial'
+import Pricing from './(shared)/priceing/page'
+import Download from './(shared)/Download'
+import Footer from './(shared)/Footer'
 
 const page = () => {
   return (
@@ -19,7 +20,8 @@ const page = () => {
 
 
 <Pricing/>
-<Download/>
+ <Download/> 
+<Footer/>
       </div>
     
     </main>
