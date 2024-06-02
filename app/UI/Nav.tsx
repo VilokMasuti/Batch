@@ -16,7 +16,7 @@ const Nav = () => {
     animate="visible"
     transition={{ duration: 2 }}
     variants={variants1}
-    className="max-w-full h-[50px] flex  items-center justify-between px-4">
+    className="max-w-full h-[50px] flex items-center justify-between px-4">
       {/* Logo for large and medium screens */}
       <motion.div 
         initial="hidden"
@@ -63,7 +63,7 @@ const Nav = () => {
         animate="visible"
         transition={{ duration: 2 }}
         variants={variants1}
-      className="  inline-flex   max-md:hidden  animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)]  bg-[length:200%_100%] px-7 font-medium  text-white  transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 max-sm:hidden lg:ml-[350px]   py-2 ">
+      className="  inline-flex  animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)]  bg-[length:200%_100%] px-7 font-medium  text-white  transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 max-sm:hidden lg:ml-[350px]   py-2 ">
         Download
       </motion.button>
       {/* Mode Toggle */}
@@ -72,7 +72,7 @@ const Nav = () => {
         animate="visible"
         transition={{ duration: 1 }}
         variants={variants1}
-      className="ml-4 max-sm:ml-[]">
+      className="ml-4">
         <ModeToggle />
       </motion.div>
       {/* Mobile Navigation */}
@@ -81,7 +81,7 @@ const Nav = () => {
         animate="visible"
         transition={{ duration: 1 }}
         variants={variants1}
-      className="md:hidden ml- max-sm:ml-[-60px]">
+      className="md:hidden ml- max-sm:ml-[-120px]">
         <MobNav />
       </motion.div>
     </motion.div>
