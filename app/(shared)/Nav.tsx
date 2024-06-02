@@ -78,7 +78,7 @@ const Nav = () => {
         animate="visible"
         transition={{ duration: 1 }}
         variants={variants1}
-        className="ml-4"
+        className="ml-4 max-sm:ml-[-60px]"
       >
         <ModeToggle />
       </motion.div>

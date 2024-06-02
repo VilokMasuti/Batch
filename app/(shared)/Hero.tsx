@@ -137,7 +137,7 @@ const Hero = () => {
                   alt="logo"
                   width={450}
                   height={450}
-                  className=" mt-[-550px] ml-[160px]  "
+                  className=" mt-[-550px] ml-[160px]   "
                 />
               </div>
             </div>

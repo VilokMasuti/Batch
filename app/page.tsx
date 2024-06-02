@@ -20,7 +20,7 @@ const page = () => {
 
 
 <Pricing/>
- <Download/> 
+  <Download/>  
 <Footer/>
       </div>
     
