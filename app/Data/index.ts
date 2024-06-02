@@ -1,4 +1,4 @@
-import { title } from "process";
+
 import icon from "../../public/assets/Icon.png";
 import icons from "../../public/assets/icons.png";
 import iconss from "../../public/assets/iconsss.png";
@@ -11,30 +11,33 @@ export const data = {
     ctaButtons: [
       {
         text: "Download Now",
-        link: "/download"
+        link: "/download",
       },
       {
         text: "Learn More",
-        link: "#features"
-      }
-    ]
+        link: "#features",
+      },
+    ],
   },
   features: [
     {
       title: "Budgeting intervals",
-      description: "Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor..",
-      icon: icon
+      description:
+        "Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor..",
+      icon: icon,
     },
     {
       title: "Expense Tracking",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
-      icon: icons
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
+      icon: icons,
     },
     {
       title: "Financial Planning",
-      description: "Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis.",
-      icon: iconss
-    }
+      description:
+        "Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis.",
+      icon: iconss,
+    },
   ],
   testimonials: [
     {
@@ -110,37 +113,36 @@ export const data = {
     {
       plan: "Basic",
       price: "$9.99/month",
-      title:" Features ",
-      icon: CheckCircleIcon ,
+      title: " Features ",
+      icon: CheckCircleIcon,
       features: [
         " Lorem ipsum dolor sit amet.",
         " Consectetur adipiscing elit.",
-        " Sed do eiusmod tempor incididunt ut labore a."
-      ]
+        " Sed do eiusmod tempor incididunt ut labore a.",
+      ],
     },
     {
       plan: "Premium",
       price: "$19.99/month",
-      title:" Features ",
-      icon: CheckCircleIcon ,
+      title: " Features ",
+      icon: CheckCircleIcon,
       features: [
         " Lorem ipsum dolor sit amet.",
         " Consectetur adipiscing elit.",
-        " Sed do eiusmod tempor incididunt ut labore a."
-      ]
+        " Sed do eiusmod tempor incididunt ut labore a.",
+      ],
     },
     {
       plan: "Pro",
       price: "$29.99/month",
-      title:" Features ",
-      icon: CheckCircleIcon ,
+      title: " Features ",
+      icon: CheckCircleIcon,
       features: [
         " Lorem ipsum dolor sit amet.",
         " Consectetur adipiscing elit.",
-        " Sed do eiusmod tempor incididunt ut labore a."
-      ]
-
-    }
+        " Sed do eiusmod tempor incididunt ut labore a.",
+      ],
+    },
     // Add more pricing plans as needed
-  ]
-}
+  ],
+};

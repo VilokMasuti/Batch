@@ -16,8 +16,7 @@ const Testimonial = () => {
           Testimonial
         </h5>
         <h1 className="font-extrabold uppercase dark:text-white text-black text-5xl sm:text-3xl font-sans mt-2">
-          What our users 
-          say about us?
+          What our users say about us?
         </h1>
       </div>
       <div className="flex flex-row items-center justify-center mb-10 w-full">

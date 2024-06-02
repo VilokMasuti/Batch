@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import { motion } from "framer-motion";
 import { data } from "../../Data/index";
@@ -8,7 +8,9 @@ const Pricing = () => {
   return (
     <section className="p-8">
       <div className="text-center mb-12">
-        <h2 className="text-zinc-950 dark:text-white font-semibold font-mono text-xl uppercase tracking-wider">Pricing Plans</h2>
+        <h2 className="text-zinc-950 dark:text-white font-semibold font-mono text-xl uppercase tracking-wider">
+          Pricing Plans
+        </h2>
         <p className="font-extrabold uppercase dark:text-white text-black text-5xl sm:text-3xl font-sans mt-2">
           Choose the plan that suits you best
         </p>
