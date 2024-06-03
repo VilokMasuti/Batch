@@ -22,25 +22,25 @@ const MobNav = () => {
             <SheetDescription></SheetDescription>
           </SheetHeader>
           <div className=" flex-col text-center flex gap-10 mt-10 ">
-            <Link href={"/home"}>
+            <Link href={"/"}>
               <span className=" text-[#FF5555] font-semibold text-xl ">
                 {" "}
                 Home
               </span>
             </Link>
-            <Link href={"/home"} className=" pt-1">
+            <Link href={"/about"} className=" pt-1">
               <span className="  Light:text-black    font-semibold  ">
                 {" "}
                 About us
               </span>
             </Link>
-            <Link href={"/home"} className=" pt-1">
+            <Link href={"/priceing"} className=" pt-1">
               <span className=" Light:text-black    font-semibold  ">
                 {" "}
                 Pricing
               </span>
             </Link>
-            <Link href={"/home"} className=" pt-1">
+            <Link href={"/features"} className=" pt-1">
               <span className=" Light:text-black    font-semibold  ">
                 {" "}
                 Features
