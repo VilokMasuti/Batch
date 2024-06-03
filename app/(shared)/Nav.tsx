@@ -52,7 +52,7 @@ const Nav = () => {
         <Link href="/about">
           <span className="font-semibold">About us</span>
         </Link>
-        <Link href="/Pricing">
+        <Link href="/priceing">
           <span className="font-semibold">Pricing</span>
         </Link>
         <Link href="/features">

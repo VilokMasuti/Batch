@@ -138,11 +138,11 @@ const Advatnage = () => {
                                 width={30}
                                 height={30}
                                 className=" max-sm:ml-[20px] ml-[50px] " />
-                          <h1 className="ml-2 max-sm:ml-5 dark:text-white max-sm:text-3xl text-black text-4xl font-extrabold">
+                          <h1 className="ml-2 max-sm:ml-5 dark:text-white max-sm:text-2xl text-black text-4xl font-extrabold">
                           Fully Customizable
                           </h1>
                     </div>
-                    <p className="text-sm max-sm:text-center max-sm:ml-[-10px] max-sm:w-[400px] text-left w-[550px] text-slate-500 ml-[65px] pt-2">
+                    <p className="text-sm max-sm:text-center max-sm:ml-[-20px] max-sm:w-[400px] text-left w-[550px] text-slate-500 ml-[65px] pt-2">
                     Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris etiam odio. Duis tristique lacus, et blandit viverra nisl velit. Sed mattis rhoncus, diam suspendisse sit nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien, suspendisse aliquam.
                     </p>
               </motion.div>
